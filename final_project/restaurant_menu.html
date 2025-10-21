@@ -10,6 +10,10 @@
             .order{
                 background-color: pink;
             }
+
+            body{
+                text-align: center;
+            }
         </style>
 
     </head>
@@ -17,15 +21,12 @@
         <header>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1024px-Tsunami_by_hokusai_19th_century.jpg" id="header-img" alt="image" width="100px">
             <h1>Restaurant name</h1>
+            <nav>
+                <a href="#menu-section">Menu</a>
+                <a href="#place-your-order">Order</a>
+                <hr>
+            </nav>
         </header>
-
-        <nav>
-            <ul>
-                <li><a href="#menu"</li>
-                <li><a hreft="#order-form"</li>
-            </ul>
-        </nav>
-
         <main>
             <section id="menu-section">
                 <h2>Menu</h2>
@@ -54,15 +55,15 @@
 
             <hr>
 
-            <section id=""place-your-order">
+            <section id="place-your-order">
                 <h2 class="order">Place Your Order</h2>
                 <form>
                     <label><b>Whats your order number? </b></label><input type="number" min="0" max="3"><br><br>
 
                     <label>Choose some extras if you want..</label><br>
-                    <input type="checkbox">Extra1<br>
-                    <input type="checkbox">Extra2<br>
-                    <input type="checkbox">Extra3<br><br>
+                    <label><input type="checkbox">Extra1</label><br>
+                    <label><input type="checkbox">Extra2</label><br>
+                    <label><input type="checkbox">Extra3</label><br><br>
 
                     <textarea id="data.entry" rows="7" cols="20" placeholder="Write here your special requests.."></textarea>
                 </form>
